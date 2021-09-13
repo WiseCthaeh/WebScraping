@@ -21,10 +21,10 @@ api = PushshiftAPI()
 
 # Set scraping parameters
 before = int(dt.datetime(2022,9,1,0,0).timestamp()) 
-after = int(dt.datetime(2010,1,1,0,0).timestamp())
+after = int(dt.datetime(2000,1,1,0,0).timestamp())
 subreddit = "Name of subreddit here (without r/)"
-sub_limit = 200000 # number of posts to scrape
-com_limit = 100000 # num of comments to scrape
+sub_limit = 1234 # number of posts to scrape
+com_limit = 1234 # num of comments to scrape
 
 # Scrape submissions and comments
 submissions = api.search_submissions(
