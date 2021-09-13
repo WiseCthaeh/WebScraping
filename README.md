@@ -1,7 +1,7 @@
 # WebScraping
 Several codes for data scraping, mainly in Etherscan and Reddit
 
-# pmaw
+# reddit_pmaw
 Uses pmaw library to scrape comments and subissions from a specific subreddit
 
 Remember to change the subreddit, before and after timestamps for new scrapes
