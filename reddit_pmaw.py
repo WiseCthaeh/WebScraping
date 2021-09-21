@@ -26,6 +26,10 @@ subreddit = "Name of subreddit here (without r/)"
 sub_limit = 1234 # number of posts to scrape
 com_limit = 1234 # num of comments to scrape
 
+# Submission and comment destinations. Change with each scrape
+sub_dest = r'submission destination here'
+com_dest = r'comment destination here'
+
 # Scrape submissions and comments
 submissions = api.search_submissions(
     subreddit = subreddit, before = before, after = after, mem_safe = True) # no limit needed as before and after used
@@ -47,6 +51,6 @@ com_df = pd.DataFrame(com_list)
 sub_df.head(5)
 com_df.head(5)
 
-# Convert to csv - make sure the file name and destination are correct
-sub_df.to_csv(r'Destination name here', index = None)
-com_df.to_csv(r'Destination name here', index = None)
+# Convert to csv
+sub_df.to_csv(sub_dest, index = None)
+com_df.to_csv(com_dest, index = None)
