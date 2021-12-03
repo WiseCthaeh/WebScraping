@@ -4,6 +4,7 @@ from six.moves import urllib
 import json
 import pandas as pd
 
+# add Coinmetrics' key and file destination
 key = 'your_API_key'
 dest = r'file_directory'
 
