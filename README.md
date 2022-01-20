@@ -1,5 +1,5 @@
 # WebScraping
-Several codes for data scraping, mainly in Etherscan and Reddit
+Several codes for data scraping in Reddit and Coinmetrics
 
 # reddit_pmaw
 Uses pmaw library to scrape comments and subissions from a specific subreddit
